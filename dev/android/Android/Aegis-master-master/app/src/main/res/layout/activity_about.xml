@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.aegis.AboutActivity"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About FSAI"
+            android:textStyle="bold|italic"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="FIRE AND SECURITY ASSOCIATION OF INDIA (FSAI) is a non-profit organization representing the Fire Protection, Life Safety, Security, Building Automation, Loss Prevention and Risk Management domains.
+
+Its primary aims and objectives are
+
+to foster a spirit of safe living among all citizens of India and inculcate a proactive mind-set towards safety and security at all times,
+to promote and advance the use of fire safety and security systems,
+to foster fire safety and security engineering education and awareness
+to maintain high ethical standards amongst its members."
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEVELOPED BY: "
+            android:layout_marginTop="50dp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n1. Anukrit\n2. Atul\n3. Aashay"/>
+
+    </LinearLayout>
+
+</ScrollView>
